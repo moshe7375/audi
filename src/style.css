@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 30px;
+  background: none;
+  color: white;
+  border: solid 1.5px white;
+}
+
+.audi-logo {
+  position: relative;
+  width: 109px;
+  height: 40px;
+}
+
+.audi-logo .ring {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  border: solid 4px black;
+  position: absolute;
+}
+
+.audi-logo .one {
+  left: 0px;
+}
+
+.audi-logo .two {
+  left: 23px;
+}
+
+.audi-logo .three {
+  left: 46px;
+}
+
+.audi-logo .four {
+  left: 69px;
+}
+
+.head-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.show-case {
+  background-image: url("./audiback.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 68vh;
+  width: 100%;
+}
+
+.show-case .content {
+  padding: 30px;
+  color: white;
+}
+
+.show-case .content p {
+  font-size: 20px;
+}
+
+.show-case .content .big {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.model-slider {
+  padding: 15px;
+  overflow: scroll;
+}
+
+.model-slider .slider-header {
+  position: absolute;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.model-slider .display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.model-slider .display .cars-img {
+  height: 125px;
+}
+
+.apr {
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.apr .content {
+  position: absolute;
+  padding: 0 20px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.apr .content .big {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.apr .content p {
+  font-size: 18px;
+}
+
+.apr .content .btn {
+  color: black;
+  border: solid 1px black;
+  width: 55%;
+}
+
+.apr .content .solid {
+  background-color: black;
+  color: white;
+}
+
+.craftsmanship img {
+  display: block;
+  width: 85%;
+  margin: auto;
+  -webkit-box-shadow: 0 0 10px -5px black;
+          box-shadow: 0 0 10px -5px black;
+}
+
+.craftsmanship .content {
+  margin: 13px 45px 100px;
+}
+
+.craftsmanship .content p {
+  font-size: 25px;
+}
+
+.craftsmanship .content .small {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.craftsmanship .content .tiny {
+  font-size: 15px;
+}
+
+.craftsmanship .content .solid {
+  background-color: black;
+}
+
+.craftsmanship .content .clear {
+  color: black;
+  border: solid 1px black;
+  font-size: 17px;
+}
+
+.cards img {
+  width: 95%;
+  display: block;
+  margin: 15px auto;
+  -webkit-box-shadow: 0 0 15px -5px black;
+          box-shadow: 0 0 15px -5px black;
+}
+
+.cards div {
+  position: relative;
+}
+
+.cards div p {
+  position: absolute;
+  bottom: 15px;
+  color: white;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.cards div .red {
+  color: red;
+}
+
+.foot-bar {
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.foot-bar a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btn {
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 30px;
+  background: none;
+  color: white;
+  border: solid 1.5px white;
+}
+
+//logo
+.audi-logo {
+  position: relative;
+  width: 109px;
+  height: 40px;
+  .ring {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: solid 4px black;
+    position: absolute;
+  }
+  .one {
+    left: 0px;
+  }
+  .two {
+    left: 23px;
+  }
+  .three {
+    left: 46px;
+  }
+  .four {
+    left: 69px;
+  }
+}
+
+//header
+.head-bar {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+//show-case
+.show-case {
+  background-image: url("./audiback.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 68vh;
+  width: 100%;
+  .content {
+    padding: 30px;
+    color: white;
+    p {
+      font-size: 20px;
+    }
+    .big {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+//model slide
+.model-slider {
+  padding: 15px;
+  overflow: scroll;
+  .slider-header {
+    position: absolute;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  .display {
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+    .cars-img {
+      height: 125px;
+    }
+  }
+}
+
+.apr {
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  .content {
+    position: absolute;
+    padding: 0 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+    .big {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+    }
+    .btn {
+      color: black;
+      border: solid 1px black;
+      width: 55%;
+    }
+    .solid {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+.craftsmanship {
+  img {
+    display: block;
+    width: 85%;
+    margin: auto;
+    box-shadow: 0 0 10px -5px black;
+  }
+  .content {
+    margin: 13px 45px 100px;
+
+    p {
+      font-size: 25px;
+    }
+    .small {
+      font-size: 20px;
+      margin: 20px 0;
+    }
+    .tiny {
+      font-size: 15px;
+    }
+    .solid {
+      background-color: black;
+    }
+    .clear {
+      color: black;
+      border: solid 1px black;
+      font-size: 17px;
+    }
+  }
+}
+//cards
+
+.cards {
+  img {
+    width: 95%;
+    display: block;
+    margin: 15px auto;
+    box-shadow: 0 0 15px -5px black;
+  }
+  div {
+    position: relative;
+    p {
+      position: absolute;
+      bottom: 15px;
+      color: white;
+      font-size: 25px;
+      width: 100%;
+      text-align: center;
+    }
+    .red {
+      color: red;
+    }
+  }
+}
+
+//footer
+
+.foot-bar {
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
